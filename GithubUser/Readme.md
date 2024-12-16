@@ -17,3 +17,42 @@ Double-click the `.xcodeproj` or `.xcworkspace` file to open the project in Xcod
 
 ### 5. Video link:
 https://drive.google.com/file/d/1ngwWd-srBIVIfuEWsNzZjIWe--D54lOm/view?usp=sharing
+
+# GithubUser Project
+
+This project is a SwiftUI-based **GitHub User Explorer** application structured using the **MVVM** architecture.
+
+# Project Structure
+
+```plaintext
+GithubUser
+│
+├── GithubUser
+│   ├── Models
+│   │   └── GithubUserModel.swift          # Defines the data model for GitHub user
+│   │
+│   ├── Preview Content
+│   │   └── Preview Assets                 # Assets for SwiftUI Previews
+│   │
+│   ├── Services
+│   │   └── ApiServices.swift              # Handles API calls and data fetching
+│   │
+│   ├── View
+│   │   ├── DetailView.swift               # Detailed view for a GitHub user
+│   │   └── MainView.swift                 # Main SwiftUI view (User Interface)
+│   │
+│   ├── ViewModel
+│   │   └── GithubUserViewModel.swift      # Business logic and interaction with the Model
+│   │
+│   ├── Assets
+│   │   └── [Visual assets here]           # App assets (images, colors, etc.)
+│   │
+│   ├── ContentView.swift                  # Main content view entry point
+│   └── GithubUserApp.swift                # App entry point (@main structure)
+│
+├── GithubUserTests
+│   └── GithubUserTests.swift              # Unit tests for Model and ViewModel
+│
+└── GithubUserUITests
+    ├── GithubUserUITests.swift            # UI tests for user interface
+    └── GithubUserUITestsLaunchTests.swift # Tests app launch and initial UI state
